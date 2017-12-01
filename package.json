@@ -1,0 +1,22 @@
+{
+  "name": "reinventdemotesttwo",
+  "version": "1.0.0",
+  "description": "Welcome to the AWS CodeStar sample web application ==================================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanathkr/reinventdemotesttwo.git"
+  },
+  "author": "Sanath Kumar Ramesh <dayanandasaraswati@gmail.com> (https://twitter.com/sanathkr_)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanathkr/reinventdemotesttwo/issues"
+  },
+  "homepage": "https://github.com/sanathkr/reinventdemotesttwo#readme",
+  "dependencies": {
+    "aws-xray-sdk": "^1.1.6"
+  }
+}
