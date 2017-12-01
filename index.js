@@ -13,7 +13,7 @@ var sqs = new AWS.SQS();
      QueueUrl: "https://sqs.us-east-1.amazonaws.com/283125242610/reinventdemo-queue"
    }, function (err, data) {
       var statusCode = 200;
-      if (err) statusCode = 500;
+      if (err) throw err;
 
       context.succeed({
         statusCode: statusCode,
